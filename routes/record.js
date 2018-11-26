@@ -1,10 +1,10 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 
-var recordController = require('../controllers/record');
+var recordController = require("../controllers/record");
 
-router.post('/saveRecord', recordController.save_record);
+router.post("/saveRecord", (req, res) => recordController.save_record);
 
-router.post('/publishContract', recordController.publish_record);
+router.post("/publishContract", (req, res) => recordController.publish_record);
 
 module.exports = router;
