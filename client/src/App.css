@@ -18,6 +18,22 @@
   color: white;
 }
 
+.landingPage {
+  background-image: url("../src/utilities/image.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+  background-repeat: no-repeat;
+}
+
+.fontTitle {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 .App-link {
   color: #61dafb;
 }
