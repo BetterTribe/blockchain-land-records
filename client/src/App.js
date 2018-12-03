@@ -5,12 +5,7 @@ import Home from "./components/layout/home";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <NavBar />
-        <Home />
-      </div>
-    );
+    return <div className="App" />;
   }
 }
 

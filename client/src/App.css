@@ -1,5 +1,18 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+#root {
+  height: 100%;
+}
+
 .App {
-  text-align: center;
+  background-image: url("../src/utilities/image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -18,8 +31,15 @@
   color: white;
 }
 
+.navigate {
+  background-color: #05444c !important;
+}
+
+.navOptions .navOptions {
+  color: #536a7a !important;
+}
+
 .landingPage {
-  background-image: url("../src/utilities/image.jpg");
   position: relative;
   background-size: cover;
   background-position: center;

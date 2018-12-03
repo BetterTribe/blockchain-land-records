@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import "../../App.css";
-
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-sm navbar-light bg-red mb-4">
+      <nav className="navbar navbar-expand-sm navbar-light bg-red mb-4 navigate">
         <div className="container">
-          <a className="navbar-brand fontTitle" href="/">
+          <a
+            style={{ color: "#99a2a9" }}
+            className="navbar-brand fontTitle"
+            href="/"
+          >
             Land Docs
           </a>
           <button
@@ -20,12 +23,20 @@ class NavBar extends Component {
           <div className="collapse navbar-collapse" id="mobile-nav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/register">
+                <a
+                  style={{ color: "#99a2a9" }}
+                  className="nav-link navOption"
+                  href="/register"
+                >
                   Sign Up
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/login">
+                <a
+                  style={{ color: "#99a2a9" }}
+                  className="nav-link navOption"
+                  href="/login"
+                >
                   Login
                 </a>
               </li>
