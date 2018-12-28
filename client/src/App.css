@@ -7,12 +7,23 @@ html {
   height: 100%;
 }
 
+.optionsLandingPage span {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .App {
-  background-image: url("../src/utilities/image.jpg");
+  background-image: linear-gradient(
+      rgba(78, 61, 61, 0.52),
+      rgba(68, 59, 59, 0.78)
+    ),
+    url(/static/media/image.17246cb7.jpg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 .App-logo {
@@ -47,6 +58,33 @@ html {
   margin-top: -24px;
   margin-bottom: -50px;
   background-repeat: no-repeat;
+}
+
+.optionsLandingPage nav {
+  position: absolute;
+  vertical-align: midde;
+  display: block;
+  top: 50%;
+  left: 40%;
+}
+.optionsLandingPage {
+  height: inherit;
+  width: 100vw;
+}
+.optionsLandingPage nav ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+.optionsLandingPage nav ul li {
+  color: #a7a7a7 !important;
+  border: 2px solid rgba(243, 243, 243, 0.66);
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+  /* background-color: #00000052; */
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
 }
 
 .fontTitle {
